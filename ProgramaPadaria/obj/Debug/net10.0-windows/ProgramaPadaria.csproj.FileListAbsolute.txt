@@ -1,0 +1,17 @@
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\ProgramaPadaria.exe
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\ProgramaPadaria.deps.json
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\ProgramaPadaria.runtimeconfig.json
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\ProgramaPadaria.dll
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\ProgramaPadaria.pdb
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.frmName.resources
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.csproj.GenerateResource.cache
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.AssemblyInfoInputs.cache
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.AssemblyInfo.cs
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.csproj.CoreCompileInputs.cache
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.dll
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\refint\ProgramaPadaria.dll
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.pdb
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.genruntimeconfig.cache
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ref\ProgramaPadaria.dll
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.Properties.Resources.resources
