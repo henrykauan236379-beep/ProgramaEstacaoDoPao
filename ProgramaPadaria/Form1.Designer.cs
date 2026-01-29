@@ -38,6 +38,7 @@
             lblComando = new Label();
             lblText = new Label();
             pictureBox2 = new PictureBox();
+            btnSomarVendas = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -55,6 +56,7 @@
             // btnFinalizarVenda
             // 
             btnFinalizarVenda.BackColor = Color.Brown;
+            btnFinalizarVenda.Font = new Font("Segoe UI", 9F);
             btnFinalizarVenda.Location = new Point(618, 451);
             btnFinalizarVenda.Name = "btnFinalizarVenda";
             btnFinalizarVenda.Size = new Size(149, 59);
@@ -89,6 +91,7 @@
             // lstVendas
             // 
             lstVendas.BackColor = Color.Orange;
+            lstVendas.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lstVendas.FormattingEnabled = true;
             lstVendas.Location = new Point(69, 40);
             lstVendas.Name = "lstVendas";
@@ -147,12 +150,24 @@
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
             // 
+            // btnSomarVendas
+            // 
+            btnSomarVendas.BackColor = Color.Blue;
+            btnSomarVendas.Location = new Point(69, 481);
+            btnSomarVendas.Name = "btnSomarVendas";
+            btnSomarVendas.Size = new Size(124, 29);
+            btnSomarVendas.TabIndex = 10;
+            btnSomarVendas.Text = "Somar vendas";
+            btnSomarVendas.UseVisualStyleBackColor = false;
+            btnSomarVendas.Click += btnSomarVendas_Click;
+            // 
             // frmName
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
             ClientSize = new Size(910, 522);
+            Controls.Add(btnSomarVendas);
             Controls.Add(lstVendas);
             Controls.Add(pictureBox2);
             Controls.Add(lblText);
@@ -185,5 +200,6 @@
         private Label lblComando;
         private Label lblText;
         private PictureBox pictureBox2;
+        private Button btnSomarVendas;
     }
 }
