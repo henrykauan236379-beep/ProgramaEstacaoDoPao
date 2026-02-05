@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,22 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 230,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs",
-              "RelativeDocumentMoniker": "ProgramaPadaria\\Form1.cs",
-              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs",
-              "RelativeToolTip": "ProgramaPadaria\\Form1.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAA9wFkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T20:26:18.556Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -49,6 +43,44 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fFormInicial.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs",
+              "RelativeDocumentMoniker": "ProgramaPadaria\\fFormInicial.cs",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs",
+              "RelativeToolTip": "ProgramaPadaria\\fFormInicial.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADgvywAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T13:57:11.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs",
+              "RelativeDocumentMoniker": "ProgramaPadaria\\Form1.cs",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs",
+              "RelativeToolTip": "ProgramaPadaria\\Form1.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T20:26:18.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fFormInicial.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs",
+              "RelativeDocumentMoniker": "ProgramaPadaria\\fFormInicial.cs",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs [Design]",
+              "RelativeToolTip": "ProgramaPadaria\\fFormInicial.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T13:52:07.27Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -64,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Program.cs",
               "RelativeDocumentMoniker": "ProgramaPadaria\\Program.cs",
@@ -72,7 +104,8 @@
               "RelativeToolTip": "ProgramaPadaria\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T16:49:09.105Z"
+              "WhenOpened": "2026-01-24T16:49:09.105Z",
+              "EditorCaption": ""
             }
           ]
         },

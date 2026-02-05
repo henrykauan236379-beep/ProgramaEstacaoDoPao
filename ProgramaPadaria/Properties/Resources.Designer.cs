@@ -69,5 +69,25 @@ namespace ProgramaPadaria.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7783093 {
+            get {
+                object obj = ResourceManager.GetObject("7783093", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7db99d46d3568fe5b985e529b133cddb_icone_da_lupa_do_olho__1_ {
+            get {
+                object obj = ResourceManager.GetObject("7db99d46d3568fe5b985e529b133cddb-icone-da-lupa-do-olho (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

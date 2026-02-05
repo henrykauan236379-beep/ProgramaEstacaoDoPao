@@ -56,6 +56,7 @@
             // btnFinalizarVenda
             // 
             btnFinalizarVenda.BackColor = Color.Brown;
+            btnFinalizarVenda.FlatStyle = FlatStyle.Popup;
             btnFinalizarVenda.Font = new Font("Segoe UI", 9F);
             btnFinalizarVenda.Location = new Point(618, 451);
             btnFinalizarVenda.Name = "btnFinalizarVenda";
@@ -69,6 +70,7 @@
             // 
             btnComecar.BackColor = Color.Chartreuse;
             btnComecar.BackgroundImageLayout = ImageLayout.None;
+            btnComecar.FlatStyle = FlatStyle.Popup;
             btnComecar.ForeColor = SystemColors.ControlText;
             btnComecar.Location = new Point(594, 12);
             btnComecar.Name = "btnComecar";
