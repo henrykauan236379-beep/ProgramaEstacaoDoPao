@@ -47,8 +47,8 @@ namespace ProgramaPadaria
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmName telaVenda = new frmName();
-            telaVenda.Show();
+            frmName Form1 = new frmName();
+            Form1.Show();
             this.Hide();
         }
 

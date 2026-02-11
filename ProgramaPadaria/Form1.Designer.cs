@@ -39,6 +39,12 @@
             lblText = new Label();
             pictureBox2 = new PictureBox();
             btnSomarVendas = new Button();
+            comboBox1 = new ComboBox();
+            lblCategory = new Label();
+            lbxCategoriasSelecionadas = new ListBox();
+            lblCategoriasSelec = new Label();
+            btnAddCategoria = new Button();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -58,7 +64,7 @@
             btnFinalizarVenda.BackColor = Color.Brown;
             btnFinalizarVenda.FlatStyle = FlatStyle.Popup;
             btnFinalizarVenda.Font = new Font("Segoe UI", 9F);
-            btnFinalizarVenda.Location = new Point(618, 451);
+            btnFinalizarVenda.Location = new Point(749, 451);
             btnFinalizarVenda.Name = "btnFinalizarVenda";
             btnFinalizarVenda.Size = new Size(149, 59);
             btnFinalizarVenda.TabIndex = 1;
@@ -72,9 +78,9 @@
             btnComecar.BackgroundImageLayout = ImageLayout.None;
             btnComecar.FlatStyle = FlatStyle.Popup;
             btnComecar.ForeColor = SystemColors.ControlText;
-            btnComecar.Location = new Point(594, 12);
+            btnComecar.Location = new Point(467, 7);
             btnComecar.Name = "btnComecar";
-            btnComecar.Size = new Size(210, 39);
+            btnComecar.Size = new Size(151, 39);
             btnComecar.TabIndex = 2;
             btnComecar.Text = "REGISTRAR VENDA";
             btnComecar.UseVisualStyleBackColor = false;
@@ -95,7 +101,7 @@
             lstVendas.BackColor = Color.Orange;
             lstVendas.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lstVendas.FormattingEnabled = true;
-            lstVendas.Location = new Point(69, 40);
+            lstVendas.Location = new Point(88, 40);
             lstVendas.Name = "lstVendas";
             lstVendas.Size = new Size(308, 424);
             lstVendas.TabIndex = 4;
@@ -105,20 +111,21 @@
             // 
             lblValor.AutoSize = true;
             lblValor.BackColor = Color.Orange;
-            lblValor.Font = new Font("Microsoft Sans Serif", 20F);
-            lblValor.Location = new Point(652, 290);
+            lblValor.Font = new Font("Microsoft Sans Serif", 25F);
+            lblValor.Location = new Point(519, 455);
             lblValor.Name = "lblValor";
-            lblValor.Size = new Size(83, 39);
+            lblValor.Size = new Size(101, 48);
             lblValor.TabIndex = 5;
             lblValor.Text = "0,00";
             lblValor.Click += lblValor_Click;
             // 
             // txtValorVenda
             // 
+            txtValorVenda.BackColor = SystemColors.ActiveBorder;
             txtValorVenda.Font = new Font("Microsoft Sans Serif", 14F);
-            txtValorVenda.Location = new Point(635, 168);
+            txtValorVenda.Location = new Point(618, 397);
             txtValorVenda.Name = "txtValorVenda";
-            txtValorVenda.Size = new Size(118, 34);
+            txtValorVenda.Size = new Size(142, 34);
             txtValorVenda.TabIndex = 6;
             txtValorVenda.TextAlign = HorizontalAlignment.Center;
             // 
@@ -134,8 +141,8 @@
             // 
             lblText.AutoSize = true;
             lblText.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            lblText.ForeColor = Color.Brown;
-            lblText.Location = new Point(541, 116);
+            lblText.ForeColor = SystemColors.ControlText;
+            lblText.Location = new Point(552, 366);
             lblText.Name = "lblText";
             lblText.Size = new Size(307, 28);
             lblText.TabIndex = 8;
@@ -163,12 +170,82 @@
             btnSomarVendas.UseVisualStyleBackColor = false;
             btnSomarVendas.Click += btnSomarVendas_Click;
             // 
+            // comboBox1
+            // 
+            comboBox1.BackColor = SystemColors.ActiveBorder;
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(618, 129);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(142, 28);
+            comboBox1.TabIndex = 11;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // lblCategory
+            // 
+            lblCategory.AutoSize = true;
+            lblCategory.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblCategory.Location = new Point(532, 88);
+            lblCategory.Name = "lblCategory";
+            lblCategory.Size = new Size(327, 28);
+            lblCategory.TabIndex = 12;
+            lblCategory.Text = "Selecione as categorias vendidas:";
+            lblCategory.Click += lblCategory_Click;
+            // 
+            // lbxCategoriasSelecionadas
+            // 
+            lbxCategoriasSelecionadas.BackColor = SystemColors.ActiveBorder;
+            lbxCategoriasSelecionadas.FormattingEnabled = true;
+            lbxCategoriasSelecionadas.Location = new Point(618, 217);
+            lbxCategoriasSelecionadas.Name = "lbxCategoriasSelecionadas";
+            lbxCategoriasSelecionadas.Size = new Size(142, 104);
+            lbxCategoriasSelecionadas.TabIndex = 13;
+            lbxCategoriasSelecionadas.SelectedIndexChanged += lbxCategoriasSelecionadas_SelectedIndexChanged;
+            // 
+            // lblCategoriasSelec
+            // 
+            lblCategoriasSelec.AutoSize = true;
+            lblCategoriasSelec.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblCategoriasSelec.Location = new Point(574, 186);
+            lblCategoriasSelec.Name = "lblCategoriasSelec";
+            lblCategoriasSelec.Size = new Size(243, 28);
+            lblCategoriasSelec.TabIndex = 14;
+            lblCategoriasSelec.Text = "Categorias selecionadas:";
+            // 
+            // btnAddCategoria
+            // 
+            btnAddCategoria.BackColor = Color.DodgerBlue;
+            btnAddCategoria.Location = new Point(766, 128);
+            btnAddCategoria.Name = "btnAddCategoria";
+            btnAddCategoria.Size = new Size(153, 29);
+            btnAddCategoria.TabIndex = 15;
+            btnAddCategoria.Text = "Adicionar Categoria";
+            btnAddCategoria.UseVisualStyleBackColor = false;
+            btnAddCategoria.Click += button1_Click_1;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Coral;
+            button1.Font = new Font("Segoe UI", 9F);
+            button1.Location = new Point(467, 128);
+            button1.Name = "button1";
+            button1.Size = new Size(145, 29);
+            button1.TabIndex = 16;
+            button1.Text = "Remover Categoria";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click_2;
+            // 
             // frmName
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
-            ClientSize = new Size(910, 522);
+            ClientSize = new Size(934, 522);
+            Controls.Add(button1);
+            Controls.Add(btnAddCategoria);
+            Controls.Add(lblCategoriasSelec);
+            Controls.Add(lbxCategoriasSelecionadas);
+            Controls.Add(lblCategory);
+            Controls.Add(comboBox1);
             Controls.Add(btnSomarVendas);
             Controls.Add(lstVendas);
             Controls.Add(pictureBox2);
@@ -203,5 +280,11 @@
         private Label lblText;
         private PictureBox pictureBox2;
         private Button btnSomarVendas;
+        private ComboBox comboBox1;
+        private Label lblCategory;
+        private ListBox lbxCategoriasSelecionadas;
+        private Label lblCategoriasSelec;
+        private Button btnAddCategoria;
+        private Button button1;
     }
 }
