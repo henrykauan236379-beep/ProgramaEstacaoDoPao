@@ -69,27 +69,42 @@ namespace ProgramaPadaria
             string conexao =
                 ConfigurationManager.ConnectionStrings["sistema_padaria"].ConnectionString;
             using (var conn = new NpgsqlConnection(conexao))
+            {
+                conn.Open();
 
-            using (var cmd = new NpgsqlCommand(
-                "INSERT INTO venda (data_venda, valor_total) VALUES (NOW(), @valor) RETURNING id", conn))
-            {
-                cmd.Parameters.AddWithValue("@valor", valorVenda);
-                idVenda = (int)cmd.ExecuteScalar();
-            }
-            conexao =
-                ConfigurationManager.ConnectionStrings["sistema_padaria"].ConnectionString;
-            using (var conn = new NpgsqlConnection(conexao))
-                foreach (var item in lbxCategoriasSelecionadas.Items)
-            {
-                var idCategoria = int.Parse(item.ToString().Split('-')[0].Trim());
                 using (var cmd = new NpgsqlCommand(
-                    "INSERT INTO venda_categoria (id_venda, id_categoria) VALUES (@idVenda, @idCategoria)", conn))
+                    "INSERT INTO venda (data_venda, valor_total) VALUES (NOW(), @valor) RETURNING id_venda", conn))
                 {
-                    cmd.Parameters.AddWithValue("@idVenda", idVenda);
-                    cmd.Parameters.AddWithValue("@idCategoria", idCategoria);
-                    cmd.ExecuteNonQuery();
+                    cmd.Parameters.AddWithValue("@valor", valorVenda);
+                    idVenda = (int)cmd.ExecuteScalar();
                 }
             }
+
+            conexao =
+                ConfigurationManager.ConnectionStrings["sistema_padaria"].ConnectionString;
+            using (var conn = new NpgsqlConnection(conexao)) { 
+                conn.Open();
+
+                foreach (var item in lbxCategoriasSelecionadas.Items)
+
+                {
+
+                    var idCategoria = int.Parse(item.ToString().Split('-')[0].Trim());
+                    using (var cmd = new NpgsqlCommand(
+                        "INSERT INTO venda_categoria (id_venda, id_categoria) VALUES (@idVenda, @idCategoria)", conn))
+                    {
+                        cmd.Parameters.AddWithValue("@idVenda", idVenda);
+                        cmd.Parameters.AddWithValue("@idCategoria", idCategoria);
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            CarregarVendas();
+            txtValorVenda.Clear();
+            lbxCategoriasSelecionadas.Items.Clear();
+            lblValor.Text = "0,00";
+
+            vendaEmProcessamento = false;
         }
 
         private void lblValor_Click(object sender, EventArgs e)
@@ -111,14 +126,7 @@ namespace ProgramaPadaria
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            lstVendas.Items.Add(
-            $"Venda #{idVenda} | R$ {valorVendaAtual:F2}"
-            );
-            lbxCategoriasSelecionadas.Items.Clear();
-            txtValorVenda.Clear();
-            lblValor.Text = "0,00";
-
-            vendaEmProcessamento = false;
+            
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -190,5 +198,34 @@ namespace ProgramaPadaria
         {
 
         }
+        //carregarVenda
+        private void CarregarVendas()
+        {
+            lstVendas.Items.Clear(); // limpa antes de recarregar
+
+            string conexao =
+                ConfigurationManager.ConnectionStrings["sistema_padaria"].ConnectionString;
+
+            using (var conn = new NpgsqlConnection(conexao))
+            {
+                conn.Open();
+
+                using (var cmd = new NpgsqlCommand(
+                    "SELECT id_venda, valor_total FROM venda ORDER BY id_venda DESC", conn))
+                using (var reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        int idVenda = reader.GetInt32(0);
+                        decimal valor = reader.GetDecimal(1);
+
+                        lstVendas.Items.Add(
+                            $"Venda #{idVenda} | R$ {valor:F2}"
+                        );
+                    }
+                }
+            }
+        }
+
     }
 }
