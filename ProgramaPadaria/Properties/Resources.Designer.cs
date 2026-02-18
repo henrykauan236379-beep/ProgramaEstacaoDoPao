@@ -89,5 +89,138 @@ namespace ProgramaPadaria.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dramatic_abstract_bundle_of_wheat_stalks_professional_png {
+            get {
+                object obj = ResourceManager.GetObject("dramatic-abstract-bundle-of-wheat-stalks-professional-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dramatic_abstract_bundle_of_wheat_stalks_professional_png1 {
+            get {
+                object obj = ResourceManager.GetObject("dramatic-abstract-bundle-of-wheat-stalks-professional-png1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dramatic_abstract_bundle_of_wheat_stalks_professional_png2 {
+            get {
+                object obj = ResourceManager.GetObject("dramatic-abstract-bundle-of-wheat-stalks-professional-png2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap green_money_bag_dollar_3d_illustration_png {
+            get {
+                object obj = ResourceManager.GetObject("green-money-bag-dollar-3d-illustration-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap impressive_classic_freshly_baked_bread_loaf_isolated_rustic_style_4k_free_png {
+            get {
+                object obj = ResourceManager.GetObject("impressive-classic-freshly-baked-bread-loaf-isolated-rustic-style-4k-free-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_among_ears_the_peace_of_wheat_fields_png_image_12725035_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-among-ears-the-peace-of-wheat-fields-png-image_12725035-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap realistic_correct_checkmark_symbol_yes_right_and_approved_icon_3d_render_illustration_free_png {
+            get {
+                object obj = ResourceManager.GetObject("realistic-correct-checkmark-symbol-yes-right-and-approved-icon-3d-render-illustra" +
+                        "tion-free-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ripe_wheat_stalks_harvest_wheat_ears_isolated_on_transparent_background_free_png_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("ripe-wheat-stalks-harvest-wheat-ears-isolated-on-transparent-background-free-png-" +
+                        "removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stunning_traditional_bundle_of_wheat_stalks_genuine_png {
+            get {
+                object obj = ResourceManager.GetObject("stunning-traditional-bundle-of-wheat-stalks-genuine-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stunning_traditional_bundle_of_wheat_stalks_genuine_png_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("stunning-traditional-bundle-of-wheat-stalks-genuine-png-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stunning_traditional_bundle_of_wheat_stalks_genuine_png_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("stunning-traditional-bundle-of-wheat-stalks-genuine-png-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap textura_sem_costura_de_vetor_xadrez_padrao_rosa_na_caixa_backgraund_quadriculado_629110_130 {
+            get {
+                object obj = ResourceManager.GetObject("textura-sem-costura-de-vetor-xadrez-padrao-rosa-na-caixa-backgraund-quadriculado_" +
+                        "629110-130", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap todo_list_icon_notepad_with_completed_todo_list_and_pencil_3d_render_png {
+            get {
+                object obj = ResourceManager.GetObject("todo-list-icon-notepad-with-completed-todo-list-and-pencil-3d-render-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

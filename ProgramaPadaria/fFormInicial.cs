@@ -52,7 +52,17 @@ namespace ProgramaPadaria
             this.Hide();
         }
 
-        private void pictureBox1_Click_2(object sender, EventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox17_Click(object sender, EventArgs e)
         {
 
         }

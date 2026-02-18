@@ -17,9 +17,32 @@ namespace ProgramaPadaria
         {
             InitializeComponent();
         }
+        private void AtualizarTotalHoje()
+        {
+            string conexao =
+                ConfigurationManager.ConnectionStrings["sistema_padaria"].ConnectionString;
+
+            using (var conn = new NpgsqlConnection(conexao))
+            {
+                conn.Open();
+
+                using (var cmd = new NpgsqlCommand(
+                    @"SELECT COALESCE(SUM(valor_total), 0)
+              FROM venda
+              WHERE DATE(data_venda) = CURRENT_DATE", conn))
+                {
+                    decimal totalHoje = (decimal)cmd.ExecuteScalar();
+
+                    lblTotalHoje.Text = totalHoje.ToString("F2");
+                }
+            }
+        }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            CarregarVendas();
+            AtualizarTotalHoje();
             //conexão com o banco
             string conexao =
                 ConfigurationManager.ConnectionStrings["sistema_padaria"].ConnectionString;
@@ -35,10 +58,13 @@ namespace ProgramaPadaria
                 {
                     comboBox1.Items.Add(
                         $"{reader["id_categoria"]} - {reader["nome_categoria"]}"
+                        
                     );
                 }
             }
         }
+
+       
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -59,12 +85,12 @@ namespace ProgramaPadaria
                 return;
             }
 
-                if(lbxCategoriasSelecionadas.Items.Count == 0)
-                {
-                    MessageBox.Show("Selecione pelo menos uma categoria.");
-                    vendaEmProcessamento = false;
-                    return;
-                }
+            if (lbxCategoriasSelecionadas.Items.Count == 0)
+            {
+                MessageBox.Show("Selecione pelo menos uma categoria.");
+                vendaEmProcessamento = false;
+                return;
+            }
             int idVenda;
             string conexao =
                 ConfigurationManager.ConnectionStrings["sistema_padaria"].ConnectionString;
@@ -82,7 +108,8 @@ namespace ProgramaPadaria
 
             conexao =
                 ConfigurationManager.ConnectionStrings["sistema_padaria"].ConnectionString;
-            using (var conn = new NpgsqlConnection(conexao)) { 
+            using (var conn = new NpgsqlConnection(conexao))
+            {
                 conn.Open();
 
                 foreach (var item in lbxCategoriasSelecionadas.Items)
@@ -100,6 +127,7 @@ namespace ProgramaPadaria
                 }
             }
             CarregarVendas();
+            AtualizarTotalHoje();
             txtValorVenda.Clear();
             lbxCategoriasSelecionadas.Items.Clear();
             lblValor.Text = "0,00";
@@ -126,41 +154,17 @@ namespace ProgramaPadaria
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
-        
+
         private void btnSomarVendas_Click(object sender, EventArgs e)
         {
-            if (vendas.Count == 0)
-            {
-                MessageBox.Show("Nenhuma venda registrada.");
-                return;
-            }
-            decimal total = 0;
-            foreach (var venda in vendas)
-            {
-                total += venda;
 
-                //mandar para um arquivo txt
-
-                string caminho = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-                string arquivo = Path.Combine(caminho, "TotalVendas.txt");
-
-                using (StreamWriter writer = new StreamWriter(arquivo))
-                {
-                    writer.WriteLine("RELATÓRIO DE VENDAS");
-                    writer.WriteLine($"Data: {DateTime.Now:dd/MM/yyyy}");
-                    writer.WriteLine();
-                    writer.WriteLine($"Total das vendas: {total.ToString("C")}");
-                }
-
-                MessageBox.Show("Total salvo em 'TotalVendas.txt' na Área de Trabalho.");
-            }
         }
 
         private void lblCategory_Click(object sender, EventArgs e)
@@ -194,6 +198,7 @@ namespace ProgramaPadaria
             }
         }
 
+
         private void lbxCategoriasSelecionadas_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -211,7 +216,10 @@ namespace ProgramaPadaria
                 conn.Open();
 
                 using (var cmd = new NpgsqlCommand(
-                    "SELECT id_venda, valor_total FROM venda ORDER BY id_venda DESC", conn))
+                   @"SELECT id_venda, valor_total, data_venda
+              FROM venda
+              WHERE DATE(data_venda) = CURRENT_DATE
+              ORDER BY data_venda DESC", conn))
                 using (var reader = cmd.ExecuteReader())
                 {
                     while (reader.Read())
@@ -227,5 +235,10 @@ namespace ProgramaPadaria
             }
         }
 
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
