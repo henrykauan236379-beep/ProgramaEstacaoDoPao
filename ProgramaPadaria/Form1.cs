@@ -58,13 +58,13 @@ namespace ProgramaPadaria
                 {
                     comboBox1.Items.Add(
                         $"{reader["id_categoria"]} - {reader["nome_categoria"]}"
-                        
+
                     );
                 }
             }
         }
 
-       
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -239,6 +239,19 @@ namespace ProgramaPadaria
         private void pictureBox3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var resultado = MessageBox.Show(
+                "Deseja encerrar o programa?",
+                "Fechar Sistema",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+            if(resultado == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
     }
 }

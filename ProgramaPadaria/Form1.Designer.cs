@@ -55,6 +55,7 @@
             pictureBox7 = new PictureBox();
             pictureBox9 = new PictureBox();
             pictureBox10 = new PictureBox();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -84,9 +85,9 @@
             btnFinalizarVenda.FlatStyle = FlatStyle.Popup;
             btnFinalizarVenda.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnFinalizarVenda.ForeColor = SystemColors.ControlLight;
-            btnFinalizarVenda.Location = new Point(786, 433);
+            btnFinalizarVenda.Location = new Point(817, 427);
             btnFinalizarVenda.Name = "btnFinalizarVenda";
-            btnFinalizarVenda.Size = new Size(105, 51);
+            btnFinalizarVenda.Size = new Size(105, 84);
             btnFinalizarVenda.TabIndex = 1;
             btnFinalizarVenda.Text = "FINALIZAR VENDA";
             btnFinalizarVenda.UseVisualStyleBackColor = false;
@@ -132,10 +133,11 @@
             // 
             lblValor.AutoSize = true;
             lblValor.BackColor = Color.Orange;
-            lblValor.Font = new Font("Microsoft Sans Serif", 25F);
-            lblValor.Location = new Point(626, 433);
+            lblValor.FlatStyle = FlatStyle.System;
+            lblValor.Font = new Font("Microsoft Sans Serif", 20F);
+            lblValor.Location = new Point(553, 444);
             lblValor.Name = "lblValor";
-            lblValor.Size = new Size(101, 48);
+            lblValor.Size = new Size(83, 39);
             lblValor.TabIndex = 5;
             lblValor.Text = "0,00";
             lblValor.Click += lblValor_Click;
@@ -292,7 +294,7 @@
             pictureBox5.BorderStyle = BorderStyle.FixedSingle;
             pictureBox5.Location = new Point(68, 417);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(861, 82);
+            pictureBox5.Size = new Size(861, 100);
             pictureBox5.TabIndex = 20;
             pictureBox5.TabStop = false;
             // 
@@ -322,9 +324,9 @@
             lblTotalHoje.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
             lblTotalHoje.ForeColor = Color.Black;
             lblTotalHoje.ImageAlign = ContentAlignment.TopCenter;
-            lblTotalHoje.Location = new Point(334, 441);
+            lblTotalHoje.Location = new Point(297, 427);
             lblTotalHoje.Name = "lblTotalHoje";
-            lblTotalHoje.Size = new Size(64, 35);
+            lblTotalHoje.Size = new Size(87, 35);
             lblTotalHoje.TabIndex = 24;
             lblTotalHoje.Text = "0,00";
             // 
@@ -333,7 +335,7 @@
             lblTot.AutoSize = true;
             lblTot.BackColor = Color.LightYellow;
             lblTot.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
-            lblTot.Location = new Point(124, 441);
+            lblTot.Location = new Point(124, 427);
             lblTot.Name = "lblTot";
             lblTot.Size = new Size(167, 35);
             lblTot.TabIndex = 25;
@@ -343,7 +345,7 @@
             // 
             pictureBox7.BackColor = Color.LightYellow;
             pictureBox7.Image = Properties.Resources.green_money_bag_dollar_3d_illustration_png;
-            pictureBox7.Location = new Point(90, 441);
+            pictureBox7.Location = new Point(90, 427);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(28, 30);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -371,12 +373,25 @@
             pictureBox10.TabIndex = 28;
             pictureBox10.TabStop = false;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.LightSeaGreen;
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button2.Location = new Point(81, 465);
+            button2.Name = "button2";
+            button2.Size = new Size(86, 46);
+            button2.TabIndex = 29;
+            button2.Text = "Encerrar";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // frmName
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LemonChiffon;
-            ClientSize = new Size(1002, 554);
+            ClientSize = new Size(1002, 523);
+            Controls.Add(button2);
             Controls.Add(pictureBox10);
             Controls.Add(pictureBox9);
             Controls.Add(pictureBox7);
@@ -451,5 +466,6 @@
         private PictureBox pictureBox7;
         private PictureBox pictureBox9;
         private PictureBox pictureBox10;
+        private Button button2;
     }
 }
