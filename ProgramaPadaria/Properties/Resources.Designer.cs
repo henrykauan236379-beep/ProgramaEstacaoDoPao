@@ -93,6 +93,116 @@ namespace ProgramaPadaria.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_12_de_mar__de_2026__10_41_41 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 12 de mar. de 2026, 10_41_41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_12_de_mar__de_2026__10_52_56 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 12 de mar. de 2026, 10_52_56", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_12_de_mar__de_2026__11_32_56 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 12 de mar. de 2026, 11_32_56", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_12_de_mar__de_2026__11_32_56_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT_Image_12_de_mar._de_2026__11_32_56-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_12_de_mar__de_2026__11_36_48 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 12 de mar. de 2026, 11_36_48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_12_de_mar__de_2026__11_36_48_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT_Image_12_de_mar._de_2026__11_36_48-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_12_de_mar__de_2026__11_36_48_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT_Image_12_de_mar._de_2026__11_36_48-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_12_de_mar1 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 12 de mar1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_12_de_mar2 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 12 de mar2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_13_de_mar__de_2026__10_23_37 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 13 de mar. de 2026, 10_23_37", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dramatic_abstract_bundle_of_wheat_stalks_professional_png {
             get {
                 object obj = ResourceManager.GetObject("dramatic-abstract-bundle-of-wheat-stalks-professional-png", resourceCulture);
@@ -123,6 +233,96 @@ namespace ProgramaPadaria.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap file_00000000391871f5a5809e0fc6e67c84 {
+            get {
+                object obj = ResourceManager.GetObject("file_00000000391871f5a5809e0fc6e67c84", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_5gdyde5gdyde5gdy {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_5gdyde5gdyde5gdy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_5gdyde5gdyde5gdy1 {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_5gdyde5gdyde5gdy1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_bjpvfxbjpvfxbjpv {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_bjpvfxbjpvfxbjpv", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_cto8z7cto8z7cto8 {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_cto8z7cto8z7cto8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_fvujj1fvujj1fvuj {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_fvujj1fvujj1fvuj", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_fvujj1fvujj1fvuj_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_fvujj1fvujj1fvuj-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_xgk5erxgk5erxgk5 {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_xgk5erxgk5erxgk5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_xgk5erxgk5erxgk5_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_xgk5erxgk5erxgk5-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap green_money_bag_dollar_3d_illustration_png {
             get {
                 object obj = ResourceManager.GetObject("green-money-bag-dollar-3d-illustration-png", resourceCulture);
@@ -146,6 +346,16 @@ namespace ProgramaPadaria.Properties {
         internal static System.Drawing.Bitmap pngtree_among_ears_the_peace_of_wheat_fields_png_image_12725035_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("pngtree-among-ears-the-peace-of-wheat-fields-png-image_12725035-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap quadro_degrade_laranja_marrom_arte_canvas_moldura_90x140_arte_em_tons_de_marrom {
+            get {
+                object obj = ResourceManager.GetObject("quadro-degrade-laranja-marrom-arte-canvas-moldura-90x140-arte-em-tons-de-marrom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -219,6 +429,26 @@ namespace ProgramaPadaria.Properties {
         internal static System.Drawing.Bitmap todo_list_icon_notepad_with_completed_todo_list_and_pencil_3d_render_png {
             get {
                 object obj = ResourceManager.GetObject("todo-list-icon-notepad-with-completed-todo-list-and-pencil-3d-render-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yellow_web_button_png {
+            get {
+                object obj = ResourceManager.GetObject("yellow-web-button-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yellow_web_button_png1 {
+            get {
+                object obj = ResourceManager.GetObject("yellow-web-button-png1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

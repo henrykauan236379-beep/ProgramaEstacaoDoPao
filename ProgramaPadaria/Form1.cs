@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Windows.Forms;
+using System.Drawing.Drawing2D;
 
 namespace ProgramaPadaria
 {
@@ -37,12 +38,57 @@ namespace ProgramaPadaria
                 }
             }
         }
+        private void ArredondarLabel(Label label, int raio)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.AddArc(0, 0, raio, raio, 180, 90);
+            path.AddArc(label.Width - raio, 0, raio, raio, 270, 90);
+            path.AddArc(label.Width - raio, label.Height - raio, raio, raio, 0, 90);
+            path.AddArc(0, label.Height - raio, raio, raio, 90, 90);
+            path.CloseFigure();
+            label.Region = new Region(path);
+        }
 
+        private void Arrendondar(PictureBox picturebox, int raio)
+        {
+            GraphicsPath path = new GraphicsPath();
 
+            path.AddArc(0, 0, raio, raio, 180, 90);
+            path.AddArc(picturebox.Width - raio, 0, raio, raio, 270, 90);
+            path.AddArc(picturebox.Width - raio, picturebox.Height - raio, raio, raio, 0, 90);
+            path.AddArc(0, picturebox.Height - raio, raio, raio, 90, 90);
+            path.CloseFigure();
+            picturebox.Region = new Region(path);
+        }
+        private void ArredondarBotao(Button botao, int raio)
+        {
+            GraphicsPath path = new GraphicsPath();
+
+            path.AddArc(0, 0, raio, raio, 180, 90);
+            path.AddArc(botao.Width - raio, 0, raio, raio, 270, 90);
+            path.AddArc(botao.Width - raio, botao.Height - raio, raio, raio, 0, 90);
+            path.AddArc(0, botao.Height - raio, raio, raio, 90, 90);
+            path.CloseFigure();
+            botao.Region = new Region(path);
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
+            ArredondarBotao(btnComecar, 25);
+            ArredondarBotao(button2, 25);
+            ArredondarBotao(btnAddCategoria, 25);
+            ArredondarBotao(btnFinalizarVenda, 25);
+            Arrendondar(pictureBox5, 30);
+            Arrendondar(pictureBox6, 30);
+            //Arrendondar(pictureBox12, 30);
+            Arrendondar(pictureBox4, 30);
+            Arrendondar(pictureBox11, 30);
+            Arrendondar(pictureBox8, 30);
+            ArredondarLabel(lblValor, 30);
             CarregarVendas();
             AtualizarTotalHoje();
+            AdicionarBordaArredondada(pictureBox12, 30, Color.Chocolate, 2f);
+
+
             //conexão com o banco
             string conexao =
                 ConfigurationManager.ConnectionStrings["sistema_padaria"].ConnectionString;
@@ -63,13 +109,31 @@ namespace ProgramaPadaria
                 }
             }
         }
-
-
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void AdicionarBordaArredondada(PictureBox pb, int raio, Color corBorda, float espessura = 2f)
         {
+            pb.Paint += (s, pe) =>
+            {
+                pe.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
 
+                float offset = espessura / 2f;
+                float w = pb.Width - espessura;
+                float h = pb.Height - espessura;
+
+                GraphicsPath path = new GraphicsPath();
+                path.AddArc(offset, offset, raio, raio, 180, 90);
+                path.AddArc(offset + w - raio, offset, raio, raio, 270, 90);
+                path.AddArc(offset + w - raio, offset + h - raio, raio, raio, 0, 90);
+                path.AddArc(offset, offset + h - raio, raio, raio, 90, 90);
+                path.CloseFigure();
+
+                // Atualiza a região com o path corrigido
+                pb.Region = new Region(path);
+
+                using Pen pen = new Pen(corBorda, espessura);
+                pe.Graphics.DrawPath(pen, path);
+            };
         }
+
         //ao clicar esse botão, o valor da venda atual é adicionado à lista de vendas e o contador é incrementado, a venda deve ser registrda no banco de dados 
         //também deve ser exibida na listbox e o valor total atualizado 
         private void button1_Click(object sender, EventArgs e)
@@ -135,11 +199,6 @@ namespace ProgramaPadaria
             vendaEmProcessamento = false;
         }
 
-        private void lblValor_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnComecar_Click(object sender, EventArgs e)
         {
             if (decimal.TryParse(txtValorVenda.Text, out valorVendaAtual))
@@ -152,29 +211,8 @@ namespace ProgramaPadaria
             }
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnSomarVendas_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblCategory_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -187,18 +225,6 @@ namespace ProgramaPadaria
 
             lbxCategoriasSelecionadas.Items.Add(comboBox1.SelectedItem);
         }
-
-        private void button1_Click_2(object sender, EventArgs e)
-        {
-            if (lbxCategoriasSelecionadas.SelectedItem != null)
-            {
-                lbxCategoriasSelecionadas.Items.Remove(
-                    lbxCategoriasSelecionadas.SelectedItem
-                );
-            }
-        }
-
-
         private void lbxCategoriasSelecionadas_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -228,19 +254,12 @@ namespace ProgramaPadaria
                         decimal valor = reader.GetDecimal(1);
 
                         lstVendas.Items.Add(
-                            $"Venda #{idVenda} | R$ {valor:F2}"
+                            $"Venda R$ {valor:F2}"
                         );
                     }
                 }
             }
         }
-
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             var resultado = MessageBox.Show(
@@ -248,10 +267,26 @@ namespace ProgramaPadaria
                 "Fechar Sistema",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question);
-            if(resultado == DialogResult.Yes)
+            if (resultado == DialogResult.Yes)
             {
                 Application.Exit();
             }
+        }
+
+        private void btnAddCategoria_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("Selecione uma categoria");
+                return;
+            }
+
+            lbxCategoriasSelecionadas.Items.Add(comboBox1.SelectedItem);
+        }
+
+        private void btnFinalizarVenda_Leave(object sender, EventArgs e)
+        {
+
         }
     }
 }
