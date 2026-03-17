@@ -58,11 +58,11 @@
             btnIniciarPrograma.FlatStyle = FlatStyle.Popup;
             btnIniciarPrograma.Font = new Font("Segoe UI", 25F, FontStyle.Bold);
             btnIniciarPrograma.ForeColor = SystemColors.ControlLightLight;
-            btnIniciarPrograma.Location = new Point(381, 452);
+            btnIniciarPrograma.Location = new Point(391, 449);
             btnIniciarPrograma.Name = "btnIniciarPrograma";
-            btnIniciarPrograma.Size = new Size(511, 120);
+            btnIniciarPrograma.Size = new Size(497, 123);
             btnIniciarPrograma.TabIndex = 14;
-            btnIniciarPrograma.Text = "INICIAR VENDAS";
+            btnIniciarPrograma.Text = "INICIAR VENDA";
             btnIniciarPrograma.UseVisualStyleBackColor = false;
             btnIniciarPrograma.Click += button1_Click;
             btnIniciarPrograma.Resize += btnIniciarPrograma_Resize;

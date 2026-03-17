@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,16 +30,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 383,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "fFormInicial.cs [Design]",
               "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs",
               "RelativeDocumentMoniker": "ProgramaPadaria\\fFormInicial.cs",
-              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs [Design]",
-              "RelativeToolTip": "ProgramaPadaria\\fFormInicial.cs [Design]",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs [Design]*",
+              "RelativeToolTip": "ProgramaPadaria\\fFormInicial.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T11:59:40.114Z",
               "IsPinned": true,
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs",
               "RelativeDocumentMoniker": "ProgramaPadaria\\Form1.cs",
@@ -68,25 +68,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs",
               "RelativeDocumentMoniker": "ProgramaPadaria\\Form1.cs",
               "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs [Design]",
               "RelativeToolTip": "ProgramaPadaria\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T13:27:19.582Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-16T13:27:19.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "fFormInicial.cs",
               "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs",
               "RelativeDocumentMoniker": "ProgramaPadaria\\fFormInicial.cs",
-              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs",
-              "RelativeToolTip": "ProgramaPadaria\\fFormInicial.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAADwvzYAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs*",
+              "RelativeToolTip": "ProgramaPadaria\\fFormInicial.cs*",
+              "ViewState": "AgIAACkAAAAAAAAAAADwvy0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T11:49:50.637Z",
               "EditorCaption": ""

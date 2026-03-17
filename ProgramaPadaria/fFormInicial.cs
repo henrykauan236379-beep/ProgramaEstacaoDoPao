@@ -43,7 +43,7 @@ namespace ProgramaPadaria
         private void fFormInicial_Load_1(object sender, EventArgs e)
         {
             ArredondarButton(button1, 20);
-            ArredondarButton(btnIniciarPrograma, 30);
+            ArredondarButton(btnIniciarPrograma, 60);
             btnIniciarPrograma.FlatStyle = FlatStyle.Flat;
             btnIniciarPrograma.FlatAppearance.BorderSize = 0;
             btnIniciarPrograma.BackColor = Color.Chocolate;
