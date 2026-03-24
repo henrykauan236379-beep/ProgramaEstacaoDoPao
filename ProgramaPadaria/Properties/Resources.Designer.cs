@@ -263,6 +263,16 @@ namespace ProgramaPadaria.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_9lapyq9lapyq9lap {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_9lapyq9lapyq9lap", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gemini_Generated_Image_an6e4lan6e4lan6e {
             get {
                 object obj = ResourceManager.GetObject("Gemini_Generated_Image_an6e4lan6e4lan6e", resourceCulture);

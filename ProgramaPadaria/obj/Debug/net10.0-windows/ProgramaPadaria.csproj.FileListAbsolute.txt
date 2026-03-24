@@ -1,5 +1,10 @@
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\ProgramaPadaria.exe
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\ProgramaPadaria.dll
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\Npgsql.dll
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\ProgramaPadaria.pdb
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\Dapper.dll
+C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.csproj.AssemblyReference.cache
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.fFormInicial.resources
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.frmName.resources
@@ -10,9 +15,6 @@ C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-wi
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.AssemblyInfo.cs
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.csproj.CoreCompileInputs.cache
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.sourcelink.json
-C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\Npgsql.dll
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\Programa.78B1DC91.Up2Date
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.dll
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\refint\ProgramaPadaria.dll
@@ -20,6 +22,5 @@ C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-wi
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\ProgramaPadaria.dll.config
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\ProgramaPadaria.deps.json
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\ProgramaPadaria.runtimeconfig.json
-C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\bin\Debug\net10.0-windows\ProgramaPadaria.pdb
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ProgramaPadaria.genruntimeconfig.cache
 C:\Users\conta\source\repos\ProgramaPadaria\ProgramaPadaria\obj\Debug\net10.0-windows\ref\ProgramaPadaria.dll

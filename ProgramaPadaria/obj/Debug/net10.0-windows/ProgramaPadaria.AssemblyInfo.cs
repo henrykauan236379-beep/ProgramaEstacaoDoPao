@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProgramaPadaria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee689023b3c0ced6a70ade2230529bc2933c1799")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abb02b8869a024f8e1b307c445e85cc356ebd957")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProgramaPadaria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProgramaPadaria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

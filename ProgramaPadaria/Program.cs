@@ -1,6 +1,5 @@
-using System.Data.Common;
-using System.Data.SqlTypes;
 using System.Configuration;
+using System.Data.Common;
 
 namespace ProgramaPadaria
 

@@ -58,9 +58,9 @@
             btnIniciarPrograma.FlatStyle = FlatStyle.Popup;
             btnIniciarPrograma.Font = new Font("Segoe UI", 25F, FontStyle.Bold);
             btnIniciarPrograma.ForeColor = SystemColors.ControlLightLight;
-            btnIniciarPrograma.Location = new Point(391, 449);
+            btnIniciarPrograma.Location = new Point(362, 437);
             btnIniciarPrograma.Name = "btnIniciarPrograma";
-            btnIniciarPrograma.Size = new Size(497, 123);
+            btnIniciarPrograma.Size = new Size(474, 123);
             btnIniciarPrograma.TabIndex = 14;
             btnIniciarPrograma.Text = "INICIAR VENDA";
             btnIniciarPrograma.UseVisualStyleBackColor = false;
@@ -70,10 +70,10 @@
             // pictureBox1
             // 
             pictureBox1.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox1.Image = Properties.Resources.ChatGPT_Image_12_de_mar__de_2026__10_41_41;
-            pictureBox1.Location = new Point(-4, -16);
+            pictureBox1.Image = Properties.Resources.Gemini_Generated_Image_9lapyq9lapyq9lap;
+            pictureBox1.Location = new Point(-70, -16);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1231, 730);
+            pictureBox1.Size = new Size(1312, 772);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 41;
             pictureBox1.TabStop = false;
@@ -83,7 +83,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Sitka Small", 49.8000031F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.SaddleBrown;
-            label1.Location = new Point(231, 214);
+            label1.Location = new Point(217, 214);
             label1.Name = "label1";
             label1.Size = new Size(477, 120);
             label1.TabIndex = 43;
@@ -92,7 +92,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.ChatGPT_Image_12_de_mar__de_2026__10_52_56;
-            pictureBox2.Location = new Point(470, -38);
+            pictureBox2.Location = new Point(451, -39);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(324, 315);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -105,7 +105,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Sitka Small", 49.8000031F, FontStyle.Bold);
             label2.ForeColor = Color.Chocolate;
-            label2.Location = new Point(683, 214);
+            label2.Location = new Point(651, 214);
             label2.Name = "label2";
             label2.Size = new Size(389, 124);
             label2.TabIndex = 44;
@@ -117,7 +117,7 @@
             label3.BackColor = Color.White;
             label3.Font = new Font("Sitka Small", 23F, FontStyle.Bold);
             label3.ForeColor = Color.SaddleBrown;
-            label3.Location = new Point(297, 187);
+            label3.Location = new Point(266, 179);
             label3.Name = "label3";
             label3.Size = new Size(215, 58);
             label3.TabIndex = 45;
@@ -128,7 +128,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.SaddleBrown;
-            label4.Location = new Point(429, 334);
+            label4.Location = new Point(394, 334);
             label4.Name = "label4";
             label4.Size = new Size(442, 31);
             label4.TabIndex = 46;
@@ -139,7 +139,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 45F, FontStyle.Bold);
             label5.ForeColor = Color.SaddleBrown;
-            label5.Location = new Point(248, 265);
+            label5.Location = new Point(179, 265);
             label5.Name = "label5";
             label5.Size = new Size(197, 100);
             label5.TabIndex = 47;
@@ -150,7 +150,7 @@
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 45F, FontStyle.Bold);
             label6.ForeColor = Color.SaddleBrown;
-            label6.Location = new Point(865, 265);
+            label6.Location = new Point(859, 265);
             label6.Name = "label6";
             label6.Size = new Size(197, 100);
             label6.TabIndex = 48;
@@ -161,7 +161,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Sitka Small", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.SaddleBrown;
-            label7.Location = new Point(248, 384);
+            label7.Location = new Point(217, 384);
             label7.Name = "label7";
             label7.Size = new Size(563, 50);
             label7.TabIndex = 49;
@@ -172,7 +172,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Sitka Small", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label8.ForeColor = Color.Chocolate;
-            label8.Location = new Point(786, 384);
+            label8.Location = new Point(771, 384);
             label8.Name = "label8";
             label8.Size = new Size(323, 50);
             label8.TabIndex = 50;
@@ -225,7 +225,7 @@
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(549, 635);
+            button1.Location = new Point(510, 635);
             button1.Name = "button1";
             button1.Size = new Size(173, 52);
             button1.TabIndex = 55;

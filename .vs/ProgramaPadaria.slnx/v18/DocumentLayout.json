@@ -3,24 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\repositories\\vendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\repositories\\vendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4AE34EA1-46C7-4157-8015-D356C7A2B507}|PadariaWorker\\PadariaWorker.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\padariaworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE34EA1-46C7-4157-8015-D356C7A2B507}|PadariaWorker\\PadariaWorker.csproj|solutionrelative:padariaworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4AE34EA1-46C7-4157-8015-D356C7A2B507}|PadariaWorker\\PadariaWorker.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\padariaworker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4AE34EA1-46C7-4157-8015-D356C7A2B507}|PadariaWorker\\PadariaWorker.csproj|solutionrelative:padariaworker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE34EA1-46C7-4157-8015-D356C7A2B507}|PadariaWorker\\PadariaWorker.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\padariaworker\\padariaworker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4AE34EA1-46C7-4157-8015-D356C7A2B507}|PadariaWorker\\PadariaWorker.csproj|solutionrelative:padariaworker\\padariaworker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\models\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\models\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\helpers\\dateonlytypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\helpers\\dateonlytypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|c:\\users\\conta\\source\\repos\\programapadaria\\programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\fforminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76FABC71-10BB-EDC6-F12B-0F80313C8720}|ProgramaPadaria\\ProgramaPadaria.csproj|solutionrelative:programapadaria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,20 +53,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 383,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "fFormInicial.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs",
-              "RelativeDocumentMoniker": "ProgramaPadaria\\fFormInicial.cs",
-              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs [Design]*",
-              "RelativeToolTip": "ProgramaPadaria\\fFormInicial.cs [Design]*",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs",
+              "RelativeDocumentMoniker": "ProgramaPadaria\\Form1.cs",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs",
+              "RelativeToolTip": "ProgramaPadaria\\Form1.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAwKAAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T11:59:40.114Z",
+              "WhenOpened": "2026-03-16T13:29:29.789Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\PadariaWorker\\Program.cs",
+              "RelativeDocumentMoniker": "PadariaWorker\\Program.cs",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\PadariaWorker\\Program.cs*",
+              "RelativeToolTip": "PadariaWorker\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:26:23.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\PadariaWorker\\appsettings.json",
+              "RelativeDocumentMoniker": "PadariaWorker\\appsettings.json",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\PadariaWorker\\appsettings.json",
+              "RelativeToolTip": "PadariaWorker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T12:22:13.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PadariaWorker",
+              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\PadariaWorker\\PadariaWorker.csproj",
+              "RelativeDocumentMoniker": "PadariaWorker\\PadariaWorker.csproj",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\PadariaWorker\\PadariaWorker.csproj",
+              "RelativeToolTip": "PadariaWorker\\PadariaWorker.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-24T12:20:26.234Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -55,50 +118,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs",
-              "RelativeDocumentMoniker": "ProgramaPadaria\\Form1.cs",
-              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs",
-              "RelativeToolTip": "ProgramaPadaria\\Form1.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAgwFUAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAwVAAAAAAAAAAAEwBIVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-23T14:23:05.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Venda.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Models\\Venda.cs",
+              "RelativeDocumentMoniker": "ProgramaPadaria\\Models\\Venda.cs",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Models\\Venda.cs",
+              "RelativeToolTip": "ProgramaPadaria\\Models\\Venda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T13:29:29.789Z",
+              "WhenOpened": "2026-03-23T14:16:27.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DateOnlyTypeHandler.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Helpers\\DateOnlyTypeHandler.cs",
+              "RelativeDocumentMoniker": "ProgramaPadaria\\Helpers\\DateOnlyTypeHandler.cs",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Helpers\\DateOnlyTypeHandler.cs",
+              "RelativeToolTip": "ProgramaPadaria\\Helpers\\DateOnlyTypeHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIAzwAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:58:29.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VendaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Repositories\\VendaRepository.cs",
+              "RelativeDocumentMoniker": "ProgramaPadaria\\Repositories\\VendaRepository.cs",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Repositories\\VendaRepository.cs",
+              "RelativeToolTip": "ProgramaPadaria\\Repositories\\VendaRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowCQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T12:09:16.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs",
               "RelativeDocumentMoniker": "ProgramaPadaria\\Form1.cs",
               "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Form1.cs [Design]",
               "RelativeToolTip": "ProgramaPadaria\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T13:27:19.582Z"
+              "WhenOpened": "2026-03-16T13:27:19.582Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "fFormInicial.cs",
               "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs",
               "RelativeDocumentMoniker": "ProgramaPadaria\\fFormInicial.cs",
-              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs*",
-              "RelativeToolTip": "ProgramaPadaria\\fFormInicial.cs*",
-              "ViewState": "AgIAACkAAAAAAAAAAADwvy0AAAAzAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\fFormInicial.cs",
+              "RelativeToolTip": "ProgramaPadaria\\fFormInicial.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T11:49:50.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T11:49:50.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Program.cs",
               "RelativeDocumentMoniker": "ProgramaPadaria\\Program.cs",
               "ToolTip": "C:\\Users\\conta\\source\\repos\\ProgramaPadaria\\ProgramaPadaria\\Program.cs",
               "RelativeToolTip": "ProgramaPadaria\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T14:53:07.268Z"
             }

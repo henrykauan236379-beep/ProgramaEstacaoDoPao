@@ -1,23 +1,28 @@
+using Dapper;
 using Npgsql;
+using ProgramaPadaria.Helpers;
+using ProgramaPadaria.Repositories;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Drawing.Drawing2D;
 using System.IO;
 using System.Windows.Forms;
-using System.Drawing.Drawing2D;
-
 namespace ProgramaPadaria
 {
     public partial class frmName : Form
     {
+        public frmName()
+        {
+            InitializeComponent();
+
+            // Adicione essa linha:
+            SqlMapper.AddTypeHandler(new DateOnlyTypeHandler());
+        }
         bool vendaEmProcessamento = false;
         List<decimal> vendas = new List<decimal>();
 
         decimal valorVendaAtual = 0;
         int contadorVendas = 0;
-        public frmName()
-        {
-            InitializeComponent();
-        }
         private void AtualizarTotalHoje()
         {
             string conexao =
@@ -79,7 +84,6 @@ namespace ProgramaPadaria
             ArredondarBotao(btnFinalizarVenda, 25);
             Arrendondar(pictureBox5, 30);
             Arrendondar(pictureBox6, 30);
-            //Arrendondar(pictureBox12, 30);
             Arrendondar(pictureBox4, 30);
             Arrendondar(pictureBox11, 30);
             Arrendondar(pictureBox8, 30);
@@ -136,12 +140,15 @@ namespace ProgramaPadaria
 
         //ao clicar esse botão, o valor da venda atual é adicionado à lista de vendas e o contador é incrementado, a venda deve ser registrda no banco de dados 
         //também deve ser exibida na listbox e o valor total atualizado 
-        private void button1_Click(object sender, EventArgs e)
+            private void button1_Click(object sender, EventArgs e)
         {
             if (vendaEmProcessamento)
                 return;
+
             vendaEmProcessamento = true;
+
             decimal valorVenda;
+
             if (!decimal.TryParse(txtValorVenda.Text, out valorVenda) || valorVenda <= 0)
             {
                 MessageBox.Show("valor da venda inválido");
@@ -155,49 +162,30 @@ namespace ProgramaPadaria
                 vendaEmProcessamento = false;
                 return;
             }
-            int idVenda;
-            string conexao =
-                ConfigurationManager.ConnectionStrings["sistema_padaria"].ConnectionString;
-            using (var conn = new NpgsqlConnection(conexao))
-            {
-                conn.Open();
 
-                using (var cmd = new NpgsqlCommand(
-                    "INSERT INTO venda (data_venda, valor_total) VALUES (NOW(), @valor) RETURNING id_venda", conn))
-                {
-                    cmd.Parameters.AddWithValue("@valor", valorVenda);
-                    idVenda = (int)cmd.ExecuteScalar();
-                }
+            var repo = new VendaRepository();
+
+            int idVenda = repo.InserirVenda(valorVenda, DateTime.Now);
+
+            foreach (var item in lbxCategoriasSelecionadas.Items)
+            {
+                int idCategoria = int.Parse(item.ToString().Split('-')[0].Trim());
+                repo.InserirVendaCategoria(idVenda, idCategoria);
             }
 
-            conexao =
-                ConfigurationManager.ConnectionStrings["sistema_padaria"].ConnectionString;
-            using (var conn = new NpgsqlConnection(conexao))
-            {
-                conn.Open();
-
-                foreach (var item in lbxCategoriasSelecionadas.Items)
-
-                {
-
-                    var idCategoria = int.Parse(item.ToString().Split('-')[0].Trim());
-                    using (var cmd = new NpgsqlCommand(
-                        "INSERT INTO venda_categoria (id_venda, id_categoria) VALUES (@idVenda, @idCategoria)", conn))
-                    {
-                        cmd.Parameters.AddWithValue("@idVenda", idVenda);
-                        cmd.Parameters.AddWithValue("@idCategoria", idCategoria);
-                        cmd.ExecuteNonQuery();
-                    }
-                }
-            }
             CarregarVendas();
             AtualizarTotalHoje();
+            AtualizarTotal();
+
+
+
             txtValorVenda.Clear();
             lbxCategoriasSelecionadas.Items.Clear();
             lblValor.Text = "0,00";
 
             vendaEmProcessamento = false;
         }
+        
 
         private void btnComecar_Click(object sender, EventArgs e)
         {
@@ -227,38 +215,6 @@ namespace ProgramaPadaria
         }
         private void lbxCategoriasSelecionadas_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-        }
-        //carregarVenda
-        private void CarregarVendas()
-        {
-            lstVendas.Items.Clear(); // limpa antes de recarregar
-
-            string conexao =
-                ConfigurationManager.ConnectionStrings["sistema_padaria"].ConnectionString;
-
-            using (var conn = new NpgsqlConnection(conexao))
-            {
-                conn.Open();
-
-                using (var cmd = new NpgsqlCommand(
-                   @"SELECT id_venda, valor_total, data_venda
-              FROM venda
-              WHERE DATE(data_venda) = CURRENT_DATE
-              ORDER BY data_venda DESC", conn))
-                using (var reader = cmd.ExecuteReader())
-                {
-                    while (reader.Read())
-                    {
-                        int idVenda = reader.GetInt32(0);
-                        decimal valor = reader.GetDecimal(1);
-
-                        lstVendas.Items.Add(
-                            $"Venda R$ {valor:F2}"
-                        );
-                    }
-                }
-            }
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -284,9 +240,29 @@ namespace ProgramaPadaria
             lbxCategoriasSelecionadas.Items.Add(comboBox1.SelectedItem);
         }
 
+        private void CarregarVendas()
+        {
+            var repo = new VendaRepository();
+            var vendas = repo.BuscarVendasHoje();
+
+            lstVendas.Items.Clear();
+
+            foreach   (var v in vendas)
+            {
+                lstVendas.Items.Add($"Venda #{v.id_venda} | R$ {v.valor_total: F2}");
+            }
+        }
+        private void AtualizarTotal()
+        {
+            var repo = new VendaRepository();
+            decimal total = repo.TotalVendas();
+
+            lblTotalHoje.Text = total.ToString("F2");
+        }
+
+
         private void btnFinalizarVenda_Leave(object sender, EventArgs e)
         {
-
         }
     }
 }
